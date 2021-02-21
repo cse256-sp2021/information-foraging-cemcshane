@@ -115,3 +115,31 @@ main hr {
 .double-size h3 {
     font-size: 2rem;
 }
+
+#class-cards {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.class-card {
+    display: inline-block;
+    height: 100%;
+    padding: 10px;
+}
+
+.class-card img {
+    padding: 10px;
+}
+
+.age1 {
+    background-color: #F7EE7F;
+}
+
+.age2 {
+    background-color: #F19C79;
+}
+
+.age3 {
+    background-color: #BEB8EB;
+}
