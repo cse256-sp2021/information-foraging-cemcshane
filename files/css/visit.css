@@ -1,0 +1,30 @@
+@import url("common.css");
+@import url("index.css");
+
+#visit-our-school {
+    text-align: center;
+    background-color: #eee;
+    padding: 60px;
+    margin-bottom: 2em;
+    width: 90%;
+    margin: auto;
+}
+
+#visit-our-school p {
+    text-align: left;
+    margin-bottom: 2em;
+    font-size: 1.25em;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+#visit-our-school a {
+    color: #a51417;
+    border: #a51417;
+    border-width: 2px;
+    border-radius: 6px;
+    border-style: solid;
+    font-size: 1rem;
+    line-height: 1.1;
+    padding: 8px 20px;
+}
