@@ -40,6 +40,16 @@
     font-size: 2em;
 }
 
+.inner-div h2 {
+    text-decoration: underline;
+}
+
+.inner-div h3 {
+    font-size: 1.3em;
+    line-height: normal;
+    padding-bottom: 15px;
+}
+
 .column a {
     color: #a51417;
     text-decoration: underline;
@@ -52,4 +62,12 @@
     padding-left: 3px;
     margin-bottom: 0em;
     font-size: 1em;
+}
+
+.inner-div li {
+    color: rgb(85, 85, 85);
+    font-size: 19.2px;
+    line-height: 27.84px;
+    margin-bottom: 0.5em;
+    margin-left: 1.5em;
 }
