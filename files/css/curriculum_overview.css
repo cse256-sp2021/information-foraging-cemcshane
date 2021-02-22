@@ -1,5 +1,10 @@
 @import url("common.css");
-@import url("side_menu.css");
+@import url("accordian.css");
+
+main {
+    margin-right: 40%;
+}
+
 main ul {
     margin-top: 1em;
 }
@@ -7,20 +12,27 @@ main ul {
 main li {
     font-size: 1.15em;
     margin-bottom: 1em;
+    margin-left: 1.5em;
 }
 
-.classroom {
-    margin-top: 6em;
-    margin-bottom: 1em;
-    clear: both;
-    overflow: hidden;
+main h2 {
+    margin: 0;
 }
 
-.classroom img {
-    float: left;
-    margin-right: 2.5em;
+main h4 {
+    font-size: 23px;
+    margin-top: 0.5em;
+    margin-bottom: 0.25em;
 }
 
-.classroom p {
-    font-size: 1.15em;
+.inner-acc {
+    font-size: 18px;
+}
+
+.panel {
+    padding: 3%;
+}
+
+.main-panel {
+    padding: 0;
 }
