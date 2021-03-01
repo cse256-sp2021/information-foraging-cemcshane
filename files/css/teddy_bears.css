@@ -1,6 +1,6 @@
 @import url("common.css");
 @import url("slideshow.css");
-@import url("side_menu.css");
+/* @import url("side_menu.css"); */
 @import url("staff_entry.css");
 .announcements h4 {
     margin-top: 1em;
@@ -26,6 +26,7 @@
 #small-image-collection {
     overflow: auto;
     clear: both;
+    margin-bottom: 15px;
 }
 
 main strong {
