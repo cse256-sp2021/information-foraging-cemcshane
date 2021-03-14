@@ -24,6 +24,10 @@ export class TopBanner {
   }
   public static setup() {
     D.addEventListener(Elements.ddArrow, "click", TopBanner.doDisplayChange);
+    document.addEventListener("scroll", function closeOnScroll() {
+      document.removeEventListener("scroll", closeOnScroll);
+      TopBanner.hide();
+    });
   }
 
   private static showing = true;

@@ -1,4 +1,6 @@
 @import url("common.css");
+@import url("accordian.css");
+
 .image-container {
     background-image: url("https://nurseryschool.wustl.edu/files/2015/03/group-holi.jpg");
 }
@@ -40,8 +42,9 @@
     font-size: 2em;
 }
 
-.inner-div h2 {
-    text-decoration: underline;
+.inner-div button {
+    margin-bottom: 0;
+    font-size: 22px;
 }
 
 .inner-div h3 {
@@ -70,4 +73,8 @@
     line-height: 27.84px;
     margin-bottom: 0.5em;
     margin-left: 1.5em;
+}
+
+.panel {
+    padding: 15px;
 }
