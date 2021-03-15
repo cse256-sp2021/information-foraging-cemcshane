@@ -1,6 +1,36 @@
 @import url("common.css");
 @import url("side_menu.css");
+@import url('accordian.css');
+
 .image-container {
     background-size: 100% 900px;
     background-image: url("https://nurseryschool.wustl.edu/files/2017/09/170914_jjn_nursery_school_008.jpg");
+}
+
+.accordion h2 {
+    margin: 0;
+    font-size: 1.7em;
+    padding-top: 0;
+}
+
+.panel {
+    padding: 3%;
+}
+
+.panel h4 {
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+
+main {
+    width: 50%;
+}
+
+.panel ul {
+    padding-left: 30px;
+    font-size: 18px;
+}
+
+.panel h3 {
+    padding-bottom: 15px;
 }

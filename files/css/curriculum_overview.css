@@ -179,3 +179,20 @@ main h4 {
 .navbar a {
     cursor: pointer;
 }
+
+.tm-tab p {
+    font-size: 18px;
+    line-height: normal;
+}
+
+.tm-tab ul li {
+    font-size: 18px;
+    line-height: normal;
+}
+
+.tm-tab em a {
+    color: #a51417;
+    text-decoration: underline;
+    padding: 0;
+    font-size: 18px;
+}
